@@ -1,0 +1,12 @@
+LoggerCoreExt
+=============
+
+Found this peace of code on http://wiki.rubyonrails.org/rails/pages/HowtoConfigureLogging
+so I decided to create a plugin for it.
+
+This plugin creates pretty logs:
+	[pid] [LEVEL] yyyy-mm-dd hh:mm:ss: message
+	
+Example:
+  logger.debug "Whatever you want..."
+  #=> [584] [DEBUG] 2007-12-13 11:32:29:   Member Indexes (0.000000)   SHOW KEYS FROM members
